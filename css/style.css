@@ -1,0 +1,81 @@
+:root {
+  --main_bgcolor: rgb(45, 45, 48);
+  --main-textcolor: rgb(255, 255, 255);
+  --p-textcolor1: rgb(255, 255, 255);
+  --p-textsize1: 0.8rem;
+}
+
+body {
+  background: url("../img/fon.jpg") rgb(20, 20, 22) left top no-repeat;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 90%;
+  background: var(--main_bgcolor);
+  padding: 1rem 10px;
+}
+
+.block1 {
+  border-radius: 20px;
+  border: 2px rgb(201, 183, 25) solid;
+  width: 80%;
+  padding: 5px;
+  margin: 15px;
+}
+.block1 p {
+  color: var(--p-textcolor1);
+  font-size: var(--p-textsize1);
+}
+
+.block2 {
+  border-radius: 20px;
+  border: 2px rgb(201, 183, 25) solid;
+  width: 80%;
+  padding: 5px;
+  margin: 15px;
+}
+.block2 img {
+  width: 80%;
+  margin: 1rem auto;
+  border-radius: 10%;
+}
+
+.block3 {
+  border-radius: 20px;
+  border: 2px rgb(201, 183, 25) solid;
+  width: 80%;
+  padding: 5px;
+  margin: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.block3 div {
+  width: 200px;
+  height: 200px;
+  background: rgb(201, 45, 25);
+  border-radius: 20% 30% 45% 20%;
+  margin: 10px;
+}
+
+.block4 {
+  border-radius: 20px;
+  border: 2px rgb(201, 183, 25) solid;
+  width: 80%;
+  padding: 5px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.block4 li {
+  display: inline-block;
+  color: var(--main-textcolor);
+}
+.block4 p {
+  width: 30%;
+  margin: 0 auto;
+  color: var(--p-textcolor1);
+  display: block;
+  font-size: 3rem;
+}
